@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-image_path = "C:/Users/bachi/OneDrive/Pictures/pexels-pixabay-36753.jpg"
+image_path = "C:/Users/bachi/OneDrive/Pictures/pngkey.com-shape-png-150273.png"
 original_image = cv2.imread(image_path)
 gray_image = cv2.cvtColor(original_image, cv2.COLOR_BGR2GRAY)
 corner_image = cv2.cornerHarris(gray_image, blockSize=2, ksize=3, k=0.04)
